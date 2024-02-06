@@ -34,7 +34,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="b flex flex-col items-center justify-center overflow-hidden bg-feature-bg bg-no-repeat mt-20 py-24">
+    <section className="b flex flex-col items-center justify-center overflow-hidden bg-feature-bg dark:bg-none bg-no-repeat  py-24">
       <div className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
@@ -63,7 +63,7 @@ const Features = () => {
                 <h2 className="text-[20px] font-[700] lg:text-[32px] mt-5 capitalize">
                   {feature.title}
                 </h2>
-                <p className="text-[16px] font-[400] text-gray-400 mt-5 bg-white/80 lg:mt-[30px] lg:bg-none">
+                <p className="text-[16px] font-[400] text-gray-400 mt-5 lg:mt-[30px] dark:bg-none lg:bg-none">
                   {feature.description}
                 </p>
               </li>

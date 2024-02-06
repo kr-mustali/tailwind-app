@@ -27,7 +27,7 @@ const Camp = () => {
 
   return (
     <div className="flex items-center justify-center flex-col">
-      <div className="mx-auto max-w-[520px] lg:max-w-[1440px] lg:px-20 lg:mb-10 xl:mb-20 ">
+      <div className="mx-auto max-w-[520px]   lg:max-w-[840px] xl:max-w-[1440px] lg:px-20 lg:mb-10">
         <div className="px-6 lg:px-20 3xl:px-0 mx-auto max-w-[1440px] w-full pb-24">
           <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
             <h2 className="text-[40px] font-[700] leading-[120%] lg:bold-64 xl:max-w-[390px]">
